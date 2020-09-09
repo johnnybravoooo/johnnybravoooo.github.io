@@ -2,6 +2,14 @@ body{
   margin: 0px;
   padding: 0px;
 }
+.banner-area{
+	background-image: url(liverock.jpg);
+	background-position: center center;
+	-webkit-background-size:cover;
+	background-size: cover;
+	height: 100vh;
+
+}
 
 .topnav {
   overflow: hidden;
