@@ -1,24 +1,112 @@
-#mask {
-  position:absolute;
-  left:0;
-  top:0;
-  z-index:9000;
-  background-color:#26262c;
-  display:none;
-}  
-#boxes .window {
-  position:absolute;
-  
-  display:none;
-  z-index:9999;
-  padding:50px;
-  border-radius: 5px;
-  text-align: center;
+
+body{
+  margin: 0px;
+  padding: 0px;   
 }
 
-#boxes #dialog {
-  width:520px; 
-  padding:5px;
-  background-color:white;
-  font-size: 15pt;
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.dropdown {
+  float: right; 
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cef2ec;
+  min-width: 90px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav a:hover,.dropdown:hover .dropbtn {
+  background-color:#00cccc;
+}
+.a{
+  width: 50%;
+  margin-top: -200px;
+  position: absolute;
+  height: auto;
+}
+.aboutus{
+  text-align: center;
+  font-size: 25px;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  text-align: center;
+  color: white;
+}
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+div.polaroid {
+  width: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin-left: 40px;
+}
+
+div.card {
+  padding: 10px;
+  color: black;
+  font-size: 17px;
+  font-family: Raleway,sans-serif;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  
+}
+.column {
+  float: left;
+  width: 33.3%;
+  text-align: center; 
+  color: white;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
